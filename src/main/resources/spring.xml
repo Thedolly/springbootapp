@@ -4,7 +4,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
            https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="doctor" class="demo.Doctor"></bean>
-    <bean id="nurse" class="demo.Nurse"></bean>
+    <bean id="doctor" class="demo.Doctor">
+        <property name="qualificaion" value="mbbs"></property>
+    </bean>
+    <bean id="nurse" class="demo.Nurse">
+
+    </bean>
 
 </beans>
