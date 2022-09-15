@@ -12,6 +12,10 @@ public class Main {
 
         Doctor staff = context.getBean(Doctor.class);
        staff.assist();
+       staff.setQualification("MBBS");
+        System.out.println(staff);
+        Doctor staff1 = context.getBean(Doctor.class);
+        System.out.println(staff1);
 
     }
 }
