@@ -2,6 +2,10 @@ package demo;
 
 public class Doctor implements Staff {
 
+    public Doctor(String qualificaion){
+        this.qualificaion=qualificaion;
+    }
+
     private  Nurse nurse;
 
     public Nurse getNurse() {
