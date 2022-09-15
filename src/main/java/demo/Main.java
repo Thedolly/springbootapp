@@ -9,10 +9,6 @@ public class Main {
 
         Doctor staff = context.getBean(Doctor.class);
        staff.assist();
-      //  Staff staff1 = context.getBean(Nurse.class);
-       // staff.assist();
-        System.out.println(staff.getQualificaion());
-       // staff1.assist();
 
     }
 }
