@@ -4,7 +4,7 @@ import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
+
 
 @Component
 @Scope(scopeName = "prototype")
@@ -36,8 +36,8 @@ public class Doctor implements Staff, BeanNameAware {
     public void setBeanName(String s) {
         System.out.println("Bean name aware");
     }
-    @PostConstruct
-    public void postConstruct(){
-        System.out.println("post construct method");
-    }
+//    @PostConstruct
+//    public void postConstruct(){
+//        System.out.println("post construct method");
+//    }
 }
